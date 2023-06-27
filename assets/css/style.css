@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: cyan;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+li{
+    font-size: 25px;
+    padding: 20px;
+}
+
+h1 {
+    margin: 20px;
+    color: black;
+}
+
+.self-image {
+    float: right;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.7;
+    color: black;
+    width: 90%;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+
+.self-image {
+    margin: 5px;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 85%;
+    margin: auto;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.child-container, .container-2 {
+    margin: 20px 0 20px;
+    padding: 20px;
+}
+
+.child-container {
+    flex: 1;
+}
+
+.container-2 {
+    flex: 4;
+    border-left: 2px solid orangered;
+}
+
+#photo {
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#photo:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder-image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#placeholder-image {
+    border: 5px solid black;
+    margin: 5px;
+}
+
+#placeholder-image:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.contact-me ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.contact-me ul li a{
+    text-decoration: underline;
+    color: black;
+}
+
+.contact-me ul li a:hover {
+    color: blue;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #photo {
+        width: 500px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #placeholder-image {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #photo {
+        width: 350px;
+    }
+
+    .self-image {
+        width: 175px;
+        padding: 0;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #placeholder-image {
+        width: 150px;
+    }
+}
