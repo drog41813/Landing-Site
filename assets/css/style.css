@@ -41,6 +41,7 @@ h1 {
     color: black;
 }
 
+/*Main section*/
 .self-image {
     float: right;
     margin: 10px;
@@ -88,7 +89,7 @@ h2 {
     flex: 4;
     border-left: 2px solid orangered;
 }
-
+ /*for horiseon webpage image as well as the hover effect*/
 #horiseon {
     border: 5px solid black;
     display: flex;
@@ -105,6 +106,7 @@ h2 {
     justify-content: center;
 }
 
+/*for the placeholder image as well as the hover effect*/
 .placeholder-image {
     display: flex;
     justify-content: center;
@@ -121,6 +123,7 @@ h2 {
     opacity: 0.5;
 }
 
+/*for the contact me section*/
 .contact-me ul{
     display: flex;
     flex-wrap: wrap;
@@ -137,6 +140,7 @@ h2 {
     color: blue;
 }
 
+/*for the resume section*/
 .resume {
     display: flex;
     justify-content: center;
@@ -147,6 +151,7 @@ h3 {
     text-align: center;
 }
 
+/*media queries for responsiveness withh webpage*/ 
 @media screen and (max-width: 768px) {
     #horiseon {
         width: 550px;
