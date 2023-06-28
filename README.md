@@ -4,7 +4,7 @@
 This is a webpage for a personal Portfolio that contains a paragraph about me, various works that I have completed, as well as a contact me section with a placeholder number, email, and github links. This webpage also contains a pending resume section. This webpage was made using an html and css file. 
 
 ## Usage
-The website can be accessed through here:
+The website can be accessed through here:https://drog41813.github.io/Landing-Site/![Alt text](./assets/css/images/Landing-Site.png) 
 
 ## Credits
 The following site assisted with having the webpage responsive dependent on size: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
