@@ -5,7 +5,7 @@ This is a webpage for a personal Portfolio that contains a paragraph about me, v
 
 ## Usage
 The website can be accessed through here: https://drog41813.github.io/Landing-Site/ 
-![Alt text](./assets/css/images/Landing-Site.png) 
+![Alt text](./assets/images/Landing-Site.png) 
 
 ## Credits
 The following site assisted with having the webpage responsive dependent on size: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
