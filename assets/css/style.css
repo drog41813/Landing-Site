@@ -4,6 +4,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Header element*/
+/* contains a flex that will make it responsive dependent on if the space of the page is on the left or right*/ 
 header{
     display: flex;
     justify-content: space-between;
